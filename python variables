@@ -1,0 +1,183 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
+#creating variable
+
+x = 5
+y = "venu"
+print(x)
+print(y)
+
+
+
+# In[2]:
+
+
+x = 4
+x = "gopal"
+print(x)
+
+
+# In[3]:
+
+
+x = str(3)
+y = int(3)
+z = float(3)
+print(x)
+print(y)
+print(z)
+
+
+# In[4]:
+
+
+x = 5 
+y = "venu"
+print(type(x))
+print(type(y))
+
+
+# In[5]:
+
+
+x = "venu"
+print(x)
+# double quote are the same as single quotes:
+x ="venu"
+print(x)
+
+
+# In[6]:
+
+
+a = 4
+A = "venu"
+print(a)
+print(A)
+
+
+# In[9]:
+
+
+# LEGAL VARIABLE NAMES
+myvar = "venu"
+my_var = "venu"
+_my_var = "venu"
+myVar= "venu"
+MYVAR = "venu"
+myvar2 = "venu"
+print(myvar)
+print(my_var)
+print(_my_var)
+print(myVar)
+print(MYVAR)
+print(myvar2)
+
+
+# In[10]:
+
+
+x,y,z = "orange","banana","cerry"
+print(x)
+print(y)
+print(z)
+
+
+# In[11]:
+
+
+x = y = z = "orange"
+print(x)
+print(y)
+print(z)
+
+
+# In[12]:
+
+
+fruits = ["apple","banana","cherry"]
+x,y,z = fruits
+print(x)
+print(y)
+print(z)
+
+
+# In[14]:
+
+
+x = "python"
+y = "is"
+z = "awesome"
+print(x,y,z)
+
+
+# In[15]:
+
+
+x = "python"
+y = "is"
+z = "awesome"
+print(x + y + z)
+
+
+# In[18]:
+
+
+x = "awesome"
+def myfunc() :
+    print("python is " + x)    
+    
+myfunc    
+
+
+# In[39]:
+
+
+x = "awesome"
+
+def myfunc():
+  x = "fantastic"  
+  print("python is "+ x)
+    
+myfunc()
+
+print("python is "+ x)
+
+
+# In[38]:
+
+
+x = "awesome"
+def myfunc():
+    global x
+    x = "fantastic"
+myfunc()
+print("python is " + x)
+
+
+# In[40]:
+
+
+x 
+
+
+# In[42]:
+
+
+x = "awesome"
+def myfunc():
+   global x
+   x = "fantastic"
+myfunc()
+print("python is " + x)
+
+
+# In[ ]:
+
+
+
+
